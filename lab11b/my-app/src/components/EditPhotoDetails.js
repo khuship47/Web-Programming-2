@@ -1,4 +1,5 @@
 import React from "react";
+import './EditPhotoDetails.css';
 
 class EditPhotoDetails extends React.Component { 
     render() {
