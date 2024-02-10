@@ -1,12 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import HeaderApp from './components/HeaderApp.js';
+import PhotoThumb from './components/PhotoThumb.js';
+import PhotoBrowser from './components/PhotoBrowser.js';
 
 
 function App() {
   return (
     <main> 
       <HeaderApp />
+      <PhotoBrowser />
     </main>
   ); 
 }
