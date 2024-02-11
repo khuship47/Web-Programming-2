@@ -35,7 +35,7 @@ function App() {
     // invoke the async function
     getData(); 
   }, [] );
-
+  
   return ( 
     <main>
     <HeaderApp />
@@ -43,7 +43,6 @@ function App() {
     </main>
   );
 }
-  
 export default App;
 
 
