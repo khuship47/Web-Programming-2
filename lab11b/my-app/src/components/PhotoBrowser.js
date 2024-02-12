@@ -13,7 +13,7 @@ const PhotoBrowser = props => {
     return (
         <section className="container"> 
             <PhotoList photos={props.photos} showImageDetails={showImageDetails} /> 
-            <EditPhotoDetails photos={props.photos} currentPhoto={currentPhoto} />
+            <EditPhotoDetails photos={props.photos} currentPhoto={currentPhoto} updatePhoto={props.updatePhoto}/>
         </section> 
     );
 }

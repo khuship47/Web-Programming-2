@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
+import * as cloneDeep from 'lodash/cloneDeep';
 //import React from "react";
 import React, { useEffect, useState } from 'react';
 import HeaderApp from './components/HeaderApp.js';
@@ -36,10 +37,26 @@ function App() {
     getData(); 
   }, [] );
   
+  const updatePhoto = (id, photo) => {
+    // Create deep clone of photo array from state. // We will use a lodash function for that task. const copyPhotos = cloneDeep(photos);
+    // find photo to update in cloned array
+    const copyPhotos = cloneDeep(photos);
+
+    // find photo to update in cloned array
+    const photoToReplace = copyPhotos.find( p => p.id === id);
+
+    // replace photo fields with edited values
+    photoToReplace.title = photo.title; 
+    photoToReplace.location.city = photo.location.city; 
+    photoToReplace.location.country = photo.location.country; // update state
+    setPhotos(copyPhotos);
+  }
+
+  
   return ( 
     <main>
     <HeaderApp />
-    <PhotoBrowser photos={photos} /> 
+    <PhotoBrowser photos={photos} updatePhoto={updatePhoto} /> 
     </main>
   );
 }
