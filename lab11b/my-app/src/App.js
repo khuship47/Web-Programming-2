@@ -4,9 +4,11 @@ import * as cloneDeep from 'lodash/cloneDeep';
 //import React from "react";
 import React, { useEffect, useState } from 'react';
 import HeaderApp from './components/HeaderApp.js';
-//import PhotoThumb from './components/PhotoThumb.js';
+import PhotoThumb from './components/PhotoThumb.js';
 import PhotoBrowser from './components/PhotoBrowser.js';
-
+import { Routes, Route } from 'react-router-dom'; 
+import Home from './components/Home.js';
+import About from './components/About.js';
 
 function App() {
   
@@ -55,8 +57,14 @@ function App() {
   
   return ( 
     <main>
-    <HeaderApp />
-    <PhotoBrowser photos={photos} updatePhoto={updatePhoto} /> 
+      <HeaderApp />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/home' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/browse' element={<PhotoBrowser photos={photos} 
+                              updatePhoto={updatePhoto}/>} />
+      </Routes>
     </main>
   );
 }
