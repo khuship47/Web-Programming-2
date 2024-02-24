@@ -1,4 +1,6 @@
+/* @import '~antd/dist/antd.css'; */
 
+@import 'antd/dist/reset.css';
 
 .small-calendar {
    width: 300px;
