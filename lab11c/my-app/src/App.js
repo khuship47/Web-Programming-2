@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import HomeStyles from './components/HomeStyles.js';
 import HomeAntd from './components/HomeAntd.js';
@@ -18,10 +18,11 @@ const App = (props) => {
         <Navigation />
       </header>
       <main>
-        <Route path='/styles' exact component={HomeStyles} /> 
-        <Route path='/antd' exact component={HomeAntd} />
-        <Route path='/recharts' exact component={HomeRechart} />
-        
+        <Routes>
+        <Route path='/styles' element={<HomeStyles/>} /> 
+        <Route path='/antd' element={<HomeAntd/>} />
+        <Route path='/recharts' element={<HomeRechart/>} />
+        </Routes>
       </main>  
     </div>
   );
