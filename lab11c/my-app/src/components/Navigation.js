@@ -2,24 +2,31 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 //import './Navigation.css';
 
-/*
-import styled from 'styled-components';
 
+import styled, { keyframes } from 'styled-components';
+import { slideInDown, headShake } from 'react-animations';
+
+const slideAnimation = keyframes`${slideInDown}`;
+const btnAnimation = keyframes`${headShake}`;
+const AnimatedNavigation = styled.nav`
+    animation: 1s ${slideAnimation};
+`;
 
 const Navigation = (props) => {
 
     return (
-        <nav>
-            <Link to='/styles'>
-                <StylesButton>Styles</StylesButton>
-            </Link>
-            <Link to='/antd'>
-                <StylesButton_2>Styles</StylesButton_2>
-            </Link>
-            <Link to='/recharts'>
-                <StylesButton_3>Styles</StylesButton_3>
-            </Link>            
-        </nav>  
+        <AnimatedNavigation>
+                <Link to='/styles'>
+                    <StylesButton>Styles</StylesButton>
+                </Link>
+                
+                <Link to='/antd'>
+                    <StylesButton_2>Antd</StylesButton_2>
+                </Link>
+                <Link to='/recharts'>
+                    <StylesButton_3>Recharts</StylesButton_3>
+                </Link>    
+        </AnimatedNavigation>        
     );
 }
 
@@ -42,6 +49,10 @@ const StylesButton = styled(NavButton)`
     background: #F25F5C;
     &:hover {
         background: #9B3D3B;
+        animation: 1s ${btnAnimation};
+    }
+    &:active {
+        background: #F69997;
     }
 `;
 
@@ -58,8 +69,10 @@ const StylesButton_3 = styled(NavButton)`
         background: #29324F;
     }
 `;
-*/
 
+
+
+/*
 import styles from './NavButton.module.css';
 const Navigation = (props) => {
     return (
@@ -76,5 +89,6 @@ const Navigation = (props) => {
         </nav>
     );
 };
+*/
 
 export default Navigation;
