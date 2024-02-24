@@ -19,21 +19,24 @@ const PaintingItem = (props) => {
 };
 
 const Card = styled.div`
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-padding: 16px;
-text-align: center;
-background-color: #f1f1f1;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   padding: 16px;
+   text-align: center;
+   background-color: #f1f1f1;
 `;
+
 const Image = styled.img`
-width: 200px;
+   width: 200px;
 `;
+
 const Caption = styled.figcaption`
-font-size: 0.75rem;
-width: 200px;
+   font-size: 0.75rem;
+   width: 200px;
 `;
+
 const Figure = styled.figure`
-margin: 0;
-padding: 0;
-`
+   margin: 0;
+   padding: 0;
+`;
 
 export default PaintingItem;
