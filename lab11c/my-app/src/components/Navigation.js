@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 //import './Navigation.css';
+
+/*
 import styled from 'styled-components';
 
 
@@ -20,6 +22,7 @@ const Navigation = (props) => {
         </nav>  
     );
 }
+
 
 const NavButton = styled.button`
     border: none;
@@ -55,4 +58,23 @@ const StylesButton_3 = styled(NavButton)`
         background: #29324F;
     }
 `;
+*/
+
+import styles from './NavButton.module.css';
+const Navigation = (props) => {
+    return (
+        <nav>
+            <Link to='/styles'>
+                <button className={styles.btn1}>Styles</button>
+            </Link>
+            <Link to='/antd'>
+                <button className={styles.btn2}>Antd</button>
+            </Link>
+            <Link to='/recharts'>
+                <button className={styles.btn3}>Recharts</button>
+            </Link>
+        </nav>
+    );
+};
+
 export default Navigation;
