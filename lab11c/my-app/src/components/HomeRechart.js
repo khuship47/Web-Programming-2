@@ -1,4 +1,6 @@
 import React from 'react';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid,
+  Tooltip, Legend} from "recharts";
 
 const HomeRechart = (props) => {
 
@@ -31,7 +33,17 @@ const HomeRechart = (props) => {
 
   return (
    <section>
-     Home Rechart Demo
+    <h2>Home Rechart </h2>
+    <BarChart width={730} height={250} data={data}>
+      <CartesianGrid strokeDasharray="3 3" />
+      <XAxis dataKey="name" />
+      <YAxis />
+      <Tooltip />
+      <Legend />
+      <Bar dataKey="2018" fill="#8884d8" />
+      <Bar dataKey="2019" fill="#82ca9d" />
+      <Bar dataKey="2020" fill="#FF8042" />
+    </BarChart>
    </section>
   );
 
