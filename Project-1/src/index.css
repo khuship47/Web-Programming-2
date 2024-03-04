@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: rgba(54, 224, 250, 0.656);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.side-bar{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 100px;
+    position: fixed;
+}
+
+.link-box{
+    padding: 30px 10px;
+    background-color: #f5deb3;
+    text-align: center;
+    margin: 5px;
+    color: black;
+}
+
+.links{
+    text-decoration: none;
+    color: #333333;
+    font-weight: bolder;
+    font-size: 20px;
+    display: block;
+}
+
+.home-page{
+    height: 80px;
+    width: 100vw;
+    background-color:#66cdaa;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 15px;
+    color:black
+}

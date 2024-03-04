@@ -3,18 +3,19 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = props => {
     return (
         <>
-            <div className="head-bar">
-                <div>
-                    <Link className="first" to='/'>Home</Link>
+            <div className="side-bar">
+                <div className="link-box">
+                    <Link className="links" to='/'>Home</Link>
                 </div>
-                <div>
-                    <Link className="first" to='/Client'>Client</Link>
+                <div className="link-box">
+                    <Link className="links" to='/Client'>Client</Link>
                 </div>
-                <div>
-                    <Link className="first" to='/Company'>Company</Link>
+                <div className="link-box">
+                    <Link className="links" to='/Company'>Company</Link>
                 </div>
 
             </div>
+            <Outlet/>
         </>
     )
 }
