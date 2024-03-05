@@ -115,7 +115,28 @@ th {
 }
 
 .charts{
-    margin-left: 20%;
-    height: 400px;
-    width: 70%;
+    margin: 20px;
+    height: 300px;
+    width: 52%;
+    background-color: bisque;
+    padding-bottom: 70px;
 }
+
+.chart-name{
+    text-align: center;
+    font-size: 20px;
+}
+.company-page{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vol-charts{
+    margin: 20px;
+    height: 400px;
+    width: 52%;
+    background-color: bisque; 
+    padding-bottom: 70px;
+}
+
+

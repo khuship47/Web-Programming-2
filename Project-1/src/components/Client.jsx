@@ -1,5 +1,9 @@
 
 const Client = (props) => {
+    if (!props.currentClient || props.currentClient.length === 0) {
+        return <div style={{textAlign:"center", fontSize: "35px"}}>Please select a Client.</div>;
+    }
+
     let totalStocks = 0;
     for (let i = 0; i < props.portfolioData.length; i++) {
         totalStocks += props.portfolioData[i].amount;

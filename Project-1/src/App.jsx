@@ -37,18 +37,15 @@ function App() {
     }
   }, [currentClient.id]);
 
-  useEffect(() => {
-    if (currentClient.symbol) {
+  
+  const handleCompanyClick = (company) => {
+    if (company.symbol) {
       // Fetch historical data for currentClient.symbol
-      fetch(`https://www.randyconnolly.com/funwebdev/3rd/api/stocks/history.php?symbol=${currentClient.symbol}`)
+      fetch(`https://www.randyconnolly.com/funwebdev/3rd/api/stocks/history.php?symbol=${company.symbol}`)
         .then(response => response.json())
         .then(data => setHistoryData(data))
         .catch(error => console.error('Error fetching history data:', error));
     }
-  }, [currentClient.symbol]);
-  
-  const handleCompanyClick = (company) => {
-    //setHistoryData(company);
     navigate(`/Company`);
   };
 
