@@ -11,7 +11,7 @@ const Client = (props) => {
     }
 
     const totalItems = props.portfolioData.length;
-
+  
     return (
         <>
             <div className="home-page"> Client Details </div>
@@ -44,7 +44,7 @@ const Client = (props) => {
                 </thead>
                 <tbody>
                 {props.portfolioData.map(item => (
-                            <tr key={item.id}>
+                            <tr key={item.id} onClick={() => props.handleCompanyClick(item)}>
                                 <td>{item.symbol}</td>
                                 <td>{item.name}</td>
                                 <td>{item.amount}</td>

@@ -2,6 +2,7 @@ import './App.css'
 import Home from './components/Home.jsx'
 import Layout from './components/Layout.jsx'
 import Client from './components/Client.jsx'
+import Company from './components/Company.jsx'
 import { Routes, Route, useNavigate } from 'react-router-dom'
 import React, { useState, useEffect } from 'react';
 
@@ -9,6 +10,7 @@ function App() {
   const [clients, setClients] = useState([]);
   const [currentClient, setCurrentClient] = useState({});
   const [portfolioData, setPortfolioData] = useState([]);
+  const [historyData, setHistoryData] = useState([]);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -34,12 +36,29 @@ function App() {
         .catch(error => console.error('Error fetching portfolio data:', error));
     }
   }, [currentClient.id]);
+
+  useEffect(() => {
+    if (currentClient.symbol) {
+      // Fetch historical data for currentClient.symbol
+      fetch(`https://www.randyconnolly.com/funwebdev/3rd/api/stocks/history.php?symbol=${currentClient.symbol}`)
+        .then(response => response.json())
+        .then(data => setHistoryData(data))
+        .catch(error => console.error('Error fetching history data:', error));
+    }
+  }, [currentClient.symbol]);
+  
+  const handleCompanyClick = (company) => {
+    //setHistoryData(company);
+    navigate(`/Company`);
+  };
+
   return (
     
     <Routes>
       <Route path='/' element={<Layout />} >
         <Route index element={<Home handleClientSelection={handleClientSelection} clients={clients}/>} />
-        <Route path='/Client' element={<Client currentClient={currentClient} portfolioData={portfolioData}/>} />
+        <Route path='/Client' element={<Client currentClient={currentClient} portfolioData={portfolioData} handleCompanyClick={handleCompanyClick}/>} />
+        <Route path='/Company' element={<Company historyData={historyData} />} />
       </Route>
     </Routes>
   

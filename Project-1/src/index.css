@@ -113,3 +113,9 @@ th {
     border: 1px solid #ddd;
     padding: 2px; /* Add padding to match the table */
 }
+
+.charts{
+    margin-left: 20%;
+    height: 400px;
+    width: 70%;
+}
