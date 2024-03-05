@@ -8,6 +8,7 @@ import React, { useState, useEffect } from 'react';
 function App() {
   const [clients, setClients] = useState([]);
   const [currentClient, setCurrentClient] = useState({});
+  const [portfolioData, setPortfolioData] = useState([]);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -18,17 +19,27 @@ function App() {
           .catch((error) => console.error('Error fetching clients:', error));
   }, []);
 
-  const handleClientSelection = (client) => {
-      navigate(`/Client`); // Pass client details as state   
-      setCurrentClient(client); 
-  };
   
+  const handleClientSelection = (client) => {
+      setCurrentClient(client); 
+      navigate(`/Client`); // Pass client details as state   
+  };
+
+  useEffect(() => {
+    if (currentClient.id) {
+      // Fetch portfolio data for currentClient
+      fetch(`https://www.randyconnolly.com/funwebdev/3rd/api/stocks/portfolio.php?id=${currentClient.id}`)
+        .then(response => response.json())
+        .then(data => setPortfolioData(data))
+        .catch(error => console.error('Error fetching portfolio data:', error));
+    }
+  }, [currentClient.id]);
   return (
     
     <Routes>
       <Route path='/' element={<Layout />} >
         <Route index element={<Home handleClientSelection={handleClientSelection} clients={clients}/>} />
-        <Route path='/Client' element={<Client currentClient={currentClient}/>} />
+        <Route path='/Client' element={<Client currentClient={currentClient} portfolioData={portfolioData}/>} />
       </Route>
     </Routes>
   
