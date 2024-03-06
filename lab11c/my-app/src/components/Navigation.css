@@ -1,0 +1,35 @@
+
+.btn {
+	border: none;
+	background: none;
+	cursor: pointer;
+	padding: 25px 50px;
+	display: inline-block;
+	margin: 15px 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+    color: #fff;  	
+}
+
+.btn1 {
+	background: #F25F5C;
+}
+.btn1:hover {
+	background: #9B3D3B;
+}
+
+.btn2 {
+	background: #867636;
+}
+.btn2:hover {
+	background: #594E24;
+}
+
+.btn3 {
+	background: #404E7C;
+}
+.btn3:hover {
+	background: #29324F;
+}
