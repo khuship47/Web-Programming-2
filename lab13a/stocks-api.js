@@ -12,6 +12,9 @@ const stocks = JSON.parse(jsonData);
 // create an express app
 const app = express();
 
+// handle requests for static resources
+app.use('/static', express.static(path.join(__dirname,'public')));
+
 // return all the stocks when a root request arrives
 app.get('/', (req,resp) => { resp.json(stocks) } );
  
