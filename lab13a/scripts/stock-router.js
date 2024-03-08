@@ -5,6 +5,35 @@ const jsonMessage = (msg) => {
     return { message : msg };
 };
 
+async function retrievePriceData(symbol, resp) { 
+    const url =
+    `http://www.randyconnolly.com/funwebdev/3rd/api/stocks/history.php?symbol=${symbol}`;
+               // retrieve the response then the json
+        const response = await fetch(url);
+        const prices = await response.json();
+              // return the retrieved price data
+    resp.json(prices); 
+}
+
+
+// return daily price data
+const handlePriceData = (stocks, app) => { 
+    app.get('/stock/daily/:symbol', (req,resp) => {
+        // change user supplied symbol to upper case
+        const symbolToFind = req.params.symbol.toUpperCase();
+        // search the array of objects for a match
+        const stock = stocks.filter(s => symbolToFind === s.symbol);
+        // now get the daily price data
+        if (stock.length > 0) { 
+            retrievePriceData(symbolToFind, resp);
+        } 
+        else {
+            resp.json(jsonMessage(`Symbol ${symbolToFind} not
+            found`)); 
+        }
+    }); 
+}
+
 // return all the stocks when a root request arrives
 const handleAllStocks = (stocks, app) => { 
     app.get('/', (req,resp) => { resp.json(stocks) } );
@@ -46,6 +75,9 @@ const handleNameSearch = (stocks, app) => {
     });
 };
 
-module.exports = { handleAllStocks,
-handleSingleSymbol,
-handleNameSearch };
+module.exports = { 
+    handleAllStocks,
+    handleSingleSymbol,
+    handleNameSearch,
+    handlePriceData
+};
