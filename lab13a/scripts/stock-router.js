@@ -1,5 +1,10 @@
 /* Module for handling specific requests/routes for stock data  */
 
+// error messages need to be returned in JSON format
+const jsonMessage = (msg) => { 
+    return { message : msg };
+};
+
 // return all the stocks when a root request arrives
 const handleAllStocks = (stocks, app) => { 
     app.get('/', (req,resp) => { resp.json(stocks) } );
@@ -12,8 +17,15 @@ const handleSingleSymbol = (stocks, app) => {
        const symbolToFind = req.params.symbol.toUpperCase();
        // search the array of objects for a match
        const matches = stocks.filter(obj => symbolToFind === obj.symbol);
-       // return the matching stock
-       resp.json(matches); 
+       
+       
+        // return the matching stock
+        if (matches.length > 0) {
+            resp.json(matches);
+        } 
+        else {
+            resp.json(jsonMessage(`Symbol ${symbolToFind} not found`));
+        }
    });
 };
 
@@ -25,7 +37,12 @@ const handleNameSearch = (stocks, app) => {
         // search the array of objects for a match
         const matches = stocks.filter( (obj) => obj.name.toLowerCase().includes(substring) );
         // return the matching stocks
-        resp.json(matches); 
+        if (matches.length > 0) {
+            resp.json(matches);
+        } 
+        else {
+            resp.json(jsonMessage(`No symbol matches found for ${substring}`));
+        } 
     });
 };
 
