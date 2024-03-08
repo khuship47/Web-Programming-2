@@ -43,6 +43,7 @@ const updateSymbol = (stocks, req, resp) => {
             resp.json(jsonMessage(`${symbolToUpd} updated`)); 
         }
 };
+
 const findName = (stocks, req, resp) => { 
     // change user supplied substring to lower case
     const substring = req.params.substring.toLowerCase();
@@ -69,9 +70,38 @@ const findPrices = (stocks, req, resp) => {
     }
 };
 
+const insertSymbol = (stocks, req, resp) => { 
+    const newStock = req.body;
+    stocks.push(newStock);
+    resp.json(jsonMessage(`Symbol ${newStock.symbol} inserted successfully`)); 
+};
+
+const deleteSymbol = (stocks, req, resp) => {
+    // Change user-supplied symbol to upper case
+    const symbolToDel = req.params.symbol.toUpperCase();
+
+    // Find the index of the stock with the specified symbol
+    const indexToDelete = stocks.findIndex(s => s.symbol === symbolToDel);
+
+    // If the stock with the specified symbol exists
+    if (indexToDelete !== -1) {
+        // Remove the stock from the stocks array using slice()
+        //const updatedStocks = stocks.slice(0, indexToDelete).concat(stocks.slice(indexToDelete + 1));
+        stocks.splice(indexToDelete, 1);
+        
+        // Respond with a success message
+        resp.json(jsonMessage(`Symbol ${symbolToDel} deleted successfully`));
+    } else {
+        // Respond with an error message if the symbol is not found
+        resp.json(jsonMessage(`Symbol ${symbolToDel} not found`));
+    }
+};
+
 module.exports = { 
     findSymbol,
     updateSymbol, 
     findName, 
-    findPrices
+    findPrices,
+    insertSymbol,
+    deleteSymbol
 };
