@@ -5,6 +5,8 @@ const express = require('express');
 // create an express app
 const app = express();
 
+app.use(express.urlencoded({ extended: true }));
+
 // handle requests for static resources
 app.use('/static', express.static(path.join(__dirname,'public')));
 

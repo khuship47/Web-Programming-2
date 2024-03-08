@@ -56,22 +56,6 @@ const handleSingleSymbol = (stocks, app) => {
             resp.json(jsonMessage(`Symbol ${symbolToFind} not found`));
         }
    });
-    // if it is a PUT request then update specified stock
-    app.put('/stock/:symbol', (req,resp) => {
-        const symbolToUpd = req.params.symbol.toUpperCase();
-        // use lodash to find index for stock with this symbol
-        let indx = stocks.findIndex(s => s.symbol === symbolToUpd);
-        // if didn't find it, then return message
-        if (indx < 0) {
-            resp.json(jsonMessage(`${symbolToUpd} not found`));
-        } 
-        else {
-            // symbol found, so replace its value with form values
-            stocks[indx] = req.body;
-            // let requestor know it worked
-            resp.json(jsonMessage(`${symbolToUpd} updated`)); 
-        }
-    });
 };
 
 // return all the stocks whose name contains the supplied text
