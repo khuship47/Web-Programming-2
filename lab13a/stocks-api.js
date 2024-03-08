@@ -10,6 +10,10 @@ app.use(express.urlencoded({ extended: true }));
 // handle requests for static resources
 app.use('/static', express.static(path.join(__dirname,'public')));
 
+// map client request for socket.io file
+app.use('/socket.io', express.static(path.join(__dirname, 
+    '/node_modules/socket.io/client-dist/')));
+
 // reference our own modules
 const stocks = require('./scripts/data-provider.js');
 const stockRouter = require('./scripts/stock-router.js'); 
@@ -23,3 +27,15 @@ stockRouter.handlePriceData(stocks, app);
 // Use express to listen to port
 let port = 8080; app.listen(port, () => {
 console.log("Server running at port= " + port); });
+
+// listen for socket communication on port 3000
+const io = require('socket.io')(3000, { 
+    cors: {
+        origin: ['http://localhost:8080'] 
+    }
+});
+
+io.on('connection', socket => {
+    console.log('new connection made with client='+socket.id);
+})
+    

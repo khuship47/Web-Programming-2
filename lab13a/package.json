@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "express": "^4.18.3",
-    "install": "^0.13.0"
+    "install": "^0.13.0",
+    "socket.io": "^4.7.4"
   },
   "name": "sample-web-service",
   "version": "1.0.0",
