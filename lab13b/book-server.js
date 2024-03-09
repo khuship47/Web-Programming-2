@@ -7,7 +7,9 @@ const express = require('express');
 const app = express();
 
 /* --- middleware section --- */ 
-
+// view engine setup
+app.set('views', './views');
+app.set('view engine', 'ejs');
 
 
 
@@ -29,7 +31,9 @@ apiRouter.handleISBN10(app, controller);
 apiRouter.handleTitle(app, controller);
 
 /*--- add in site page requests ----*/
-
+app.get('/', (req, res) => {
+    res.render('home.ejs');
+});
 
 
 // customize the 404 error with our own middleware function
