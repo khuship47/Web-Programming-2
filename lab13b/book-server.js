@@ -39,16 +39,16 @@ app.get('/site/list', (req, res) => {
     res.render('list.ejs', { books: controller.getAll() } );
 });
 
+app.get('/site/book/:isbn', (req, res) => {
+    res.render('book.ejs', { book:
+    controller.findByISBN10(req.params.isbn) } );
+    });
+
 // customize the 404 error with our own middleware function
 app.use(function (req, res, next) {
     res.status(404).send("Sorry can't find that!")
 });
 
-app.get('/site/book/:isbn', (req, res) => {
-        res.render('book.ejs', { book:
-        controller.findByISBN10(req.params.isbn)     
-    });
-});
 
 const port = process.env.port || 8080;
 app.listen(port, function () {
