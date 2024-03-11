@@ -1,0 +1,16 @@
+{
+  "name": "lab14b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api-paintings.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "sql": "^0.78.0",
+    "sqlite3": "^5.1.7"
+  }
+}
