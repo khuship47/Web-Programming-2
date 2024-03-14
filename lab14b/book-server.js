@@ -1,15 +1,10 @@
 require('dotenv').config();
-const mongoose = require('mongoose');
+const express = require('express');
+const app = express();
 
-const opt = {
-    useUnifiedTopology: true,
-    useNewUrlParser: true
-};
-
-console.log("starting to connect to mongo ...");
-mongoose.connect(process.env.MONGO_URL, opt);
-const db = mongoose.connection;
-db.on('error',console.error.bind(console,'connection error:'));
-db.once('open', () => {
-    console.log("connected to mongo");
+// create connection to database
+require('./handlers/dataConnector.js').connect();
+const port = process.env.PORT;
+app.listen(port, () => {
+    console.log("Server running at port= " + port);
 });
