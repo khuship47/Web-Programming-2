@@ -45,8 +45,37 @@ const handleBooksByPageRange = (app, Book) => {
     });
 };
 
+// handle POST request for a new book
+const handleCreateBook = (app, Book) => {
+    app.route('/api/create/book')
+    .post( (req,resp) => {
+    // retrieve the form data from the http request
+    const aBook = {
+    isbn10: req.body.isbn10,
+    isbn13: req.body.isbn13,
+    title: req.body.title,
+    year: req.body.year,
+    publisher: req.body.publisher,
+    production: {
+    pages: req.body.pages
+    }
+    };
+    // now have mongoose add the book data
+        Book.create(aBook, (err, data) => {
+        // for now simply return a JSON message
+        if (err) {
+        resp.json({ message: 'Unable to connect to books' });
+        } else {
+        const msg = `New Book was saved
+        isbn=${aBook.isbn10}`;
+        resp.json({ message: msg });
+        }
+        });
+    });
+};
 module.exports = {
     handleAllBooks,
     handleSingleBook,
-    handleBooksByPageRange
+    handleBooksByPageRange,
+    handleCreateBook
 };

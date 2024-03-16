@@ -15,6 +15,7 @@ const bookRouter = require('./handlers/bookRouter.js');
 bookRouter.handleAllBooks(app, Book);
 bookRouter.handleSingleBook(app, Book);
 bookRouter.handleBooksByPageRange(app, Book);
+bookRouter.handleCreateBook(app, Book);
 
 // create connection to database
 require('./handlers/dataConnector.js').connect();
