@@ -1,0 +1,36 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+  margin: 0 auto;
+  padding: 1em 0;  
+}
+
+
+
+header,
+main {
+  background: #eaeaea;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+/* style changes for mobile sizes */
+@media (max-width: 700px) {
+  
+  main {
+    margin: 0.25rem;
+  }
+
+  header {
+    margin: 0.25rem;
+  }  
+  
+}

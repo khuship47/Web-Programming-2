@@ -1,0 +1,1280 @@
+{
+   "id":13,
+   "tmdb_id":14,
+   "imdb_id":"tt0169547",
+   "release_date":"1999-09-15",
+   "title":"American Beauty",
+   "runtime":122,
+   "revenue":356296601,
+   "tagline":"Look closer.",
+   "poster":"/or1MP8BZIAjqWYxPdPX724ydKar.jpg",
+   "ratings":{
+      "popularity":20.726578,
+      "average":7.9,
+      "count":3313
+   },
+   "details":{
+      "overview":"Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+      "genres":[
+         {
+            "id":18,
+            "name":"Drama"
+         }
+      ],
+      "keywords":null
+   },
+   "production":{
+      "crew":[
+         {
+            "credit_id":"52fe420ec3a36847f8000809",
+            "department":"Sound",
+            "gender":2,
+            "id":153,
+            "job":"Original Music Composer",
+            "name":"Thomas Newman"
+         },
+         {
+            "credit_id":"52fe420ec3a36847f80007c5",
+            "department":"Directing",
+            "gender":2,
+            "id":39,
+            "job":"Director",
+            "name":"Sam Mendes"
+         },
+         {
+            "credit_id":"52fe420ec3a36847f80007cb",
+            "department":"Writing",
+            "gender":2,
+            "id":2152,
+            "job":"Author",
+            "name":"Alan Ball"
+         },
+         {
+            "credit_id":"52fe420ec3a36847f8000839",
+            "department":"Writing",
+            "gender":2,
+            "id":2152,
+            "job":"Screenplay",
+            "name":"Alan Ball"
+         },
+         {
+            "credit_id":"5573217ec3a3686b7d00192f",
+            "department":"Production",
+            "gender":2,
+            "id":2152,
+            "job":"Co-Producer",
+            "name":"Alan Ball"
+         },
+         {
+            "credit_id":"52fe420ec3a36847f80007fd",
+            "department":"Production",
+            "gender":2,
+            "id":8215,
+            "job":"Producer",
+            "name":"Bruce Cohen"
+         },
+         {
+            "credit_id":"52fe420ec3a36847f8000803",
+            "department":"Production",
+            "gender":2,
+            "id":8216,
+            "job":"Producer",
+            "name":"Dan Jinks"
+         },
+         {
+            "credit_id":"52fe420ec3a36847f800080f",
+            "department":"Camera",
+            "gender":0,
+            "id":8217,
+            "job":"Director of Photography",
+            "name":"Conrad L. Hall"
+         },
+         {
+            "credit_id":"52fe420ec3a36847f8000815",
+            "department":"Editing",
+            "gender":2,
+            "id":7414,
+            "job":"Editor",
+            "name":"Christopher Greenbury"
+         },
+         {
+            "credit_id":"52fe420ec3a36847f800081b",
+            "department":"Editing",
+            "gender":2,
+            "id":8219,
+            "job":"Editor",
+            "name":"Tariq Anwar"
+         },
+         {
+            "credit_id":"52fe420ec3a36847f8000821",
+            "department":"Production",
+            "gender":1,
+            "id":495,
+            "job":"Casting",
+            "name":"Debra Zane"
+         },
+         {
+            "credit_id":"5674285c9251412daf002f47",
+            "department":"Art",
+            "gender":1,
+            "id":8220,
+            "job":"Production Design",
+            "name":"Naomi Shohan"
+         },
+         {
+            "credit_id":"52fe420ec3a36847f800082d",
+            "department":"Art",
+            "gender":2,
+            "id":8221,
+            "job":"Art Direction",
+            "name":"David Lazan"
+         },
+         {
+            "credit_id":"52fe420ec3a36847f8000833",
+            "department":"Costume & Make-Up",
+            "gender":1,
+            "id":8222,
+            "job":"Costume Design",
+            "name":"Julie Weiss"
+         },
+         {
+            "credit_id":"5750676ac3a36840c600120b",
+            "department":"Production",
+            "gender":1,
+            "id":494,
+            "job":"Casting",
+            "name":"Terri Taylor"
+         },
+         {
+            "credit_id":"57506835c3a36840c6001223",
+            "department":"Crew",
+            "gender":1,
+            "id":2227,
+            "job":"Thanks",
+            "name":"Nicole Kidman"
+         },
+         {
+            "credit_id":"56742d41c3a3685edc0022ef",
+            "department":"Sound",
+            "gender":2,
+            "id":3193,
+            "job":"Supervising Sound Editor",
+            "name":"Scott Martin Gershin"
+         },
+         {
+            "credit_id":"56742c94c3a3685ee700246d",
+            "department":"Editing",
+            "gender":2,
+            "id":6048,
+            "job":"Dialogue Editor",
+            "name":"Mark Gordon"
+         },
+         {
+            "credit_id":"56742b129251412db40026cf",
+            "department":"Sound",
+            "gender":2,
+            "id":7538,
+            "job":"Music Editor",
+            "name":"Bill Bernstein"
+         },
+         {
+            "credit_id":"575065b6c3a3686c24000c96",
+            "department":"Crew",
+            "gender":1,
+            "id":8532,
+            "job":"Post Production Supervisor",
+            "name":"Lisa Dennis Kennedy"
+         },
+         {
+            "credit_id":"56742ce69251414dee0000af",
+            "department":"Sound",
+            "gender":0,
+            "id":15331,
+            "job":"Sound Effects Editor",
+            "name":"Bryan Bowen"
+         },
+         {
+            "credit_id":"56742914c3a3685ee20023b0",
+            "department":"Crew",
+            "gender":2,
+            "id":16498,
+            "job":"Special Effects Coordinator",
+            "name":"John Hartigan"
+         },
+         {
+            "credit_id":"5674286ec3a3685ee200239d",
+            "department":"Art",
+            "gender":1,
+            "id":19309,
+            "job":"Set Decoration",
+            "name":"Jan K. Bergstrom"
+         },
+         {
+            "credit_id":"567428dd9251414dee000022",
+            "department":"Art",
+            "gender":0,
+            "id":35760,
+            "job":"Assistant Art Director",
+            "name":"Catherine Smith"
+         },
+         {
+            "credit_id":"56742a0292514133e50002ca",
+            "department":"Crew",
+            "gender":2,
+            "id":37925,
+            "job":"Second Unit Cinematographer",
+            "name":"Conrad W. Hall"
+         },
+         {
+            "credit_id":"57506797c3a3686b96000e4b",
+            "department":"Crew",
+            "gender":2,
+            "id":47098,
+            "job":"Thanks",
+            "name":"Pete Townshend"
+         },
+         {
+            "credit_id":"5573218bc3a3687094001bc3",
+            "department":"Production",
+            "gender":2,
+            "id":51689,
+            "job":"Co-Producer",
+            "name":"Stan Wlodkowski"
+         },
+         {
+            "credit_id":"56742e31c3a3685ef100233f",
+            "department":"Editing",
+            "gender":2,
+            "id":55985,
+            "job":"First Assistant Editor",
+            "name":"Tracey Wadmore-Smith"
+         },
+         {
+            "credit_id":"567429edc3a3685ef10022c9",
+            "department":"Crew",
+            "gender":0,
+            "id":73667,
+            "job":"Second Unit Cinematographer",
+            "name":"David Golia"
+         },
+         {
+            "credit_id":"56742dac9251414dee0000cb",
+            "department":"Costume & Make-Up",
+            "gender":0,
+            "id":74323,
+            "job":"Makeup Artist",
+            "name":"Tania McComas"
+         },
+         {
+            "credit_id":"58c9734792514107d3001dde",
+            "department":"Production",
+            "gender":1,
+            "id":74536,
+            "job":"Production Coordinator",
+            "name":"Christa Vausbinder"
+         },
+         {
+            "credit_id":"589b9a60c3a3687e510008a4",
+            "department":"Sound",
+            "gender":0,
+            "id":75797,
+            "job":"ADR Supervisor",
+            "name":"Trevor Jolly"
+         },
+         {
+            "credit_id":"56742a59c3a3685edc002290",
+            "department":"Camera",
+            "gender":0,
+            "id":82169,
+            "job":"Camera Operator",
+            "name":"Geoffrey Haley"
+         },
+         {
+            "credit_id":"56742d939251412dbb002578",
+            "department":"Costume & Make-Up",
+            "gender":0,
+            "id":83066,
+            "job":"Key Hair Stylist",
+            "name":"Carol A. O'Connell"
+         },
+         {
+            "credit_id":"56742b9fc3a3685ee500273f",
+            "department":"Production",
+            "gender":0,
+            "id":91173,
+            "job":"Researcher",
+            "name":"Deborah Ricketts"
+         },
+         {
+            "credit_id":"56742a8c9251412daf002f93",
+            "department":"Camera",
+            "gender":2,
+            "id":108146,
+            "job":"First Assistant Camera",
+            "name":"Clyde E. Bryan"
+         },
+         {
+            "credit_id":"56742b58c3a3685ee20023f2",
+            "department":"Sound",
+            "gender":0,
+            "id":120695,
+            "job":"Music Supervisor",
+            "name":"Chris Douridas"
+         },
+         {
+            "credit_id":"56742be6c3a3685eeb0025c0",
+            "department":"Crew",
+            "gender":1,
+            "id":129193,
+            "job":"Choreographer",
+            "name":"Paula Abdul"
+         },
+         {
+            "credit_id":"57506690c3a3681f8e001632",
+            "department":"Crew",
+            "gender":2,
+            "id":237920,
+            "job":"Utility Stunts",
+            "name":"Phil Culotta"
+         },
+         {
+            "credit_id":"589b991dc3a3687e4b0010f5",
+            "department":"Crew",
+            "gender":0,
+            "id":484529,
+            "job":"Set Production Assistant",
+            "name":"Mike Piccirillo"
+         },
+         {
+            "credit_id":"56742caa9251412daf002fce",
+            "department":"Sound",
+            "gender":0,
+            "id":548439,
+            "job":"Foley",
+            "name":"James Moriana"
+         },
+         {
+            "credit_id":"56742cbec3a3685edc0022e4",
+            "department":"Sound",
+            "gender":0,
+            "id":548445,
+            "job":"Foley",
+            "name":"Jeffrey Wilhoit"
+         },
+         {
+            "credit_id":"567ed8da9251414d98000953",
+            "department":"Sound",
+            "gender":0,
+            "id":548446,
+            "job":"Foley",
+            "name":"Greg Zimmerman"
+         },
+         {
+            "credit_id":"56742a719251412daf002f8a",
+            "department":"Camera",
+            "gender":0,
+            "id":589974,
+            "job":"Still Photographer",
+            "name":"Lorey Sebastian"
+         },
+         {
+            "credit_id":"573272a1c3a3686950000467",
+            "department":"Sound",
+            "gender":0,
+            "id":950773,
+            "job":"ADR & Dubbing",
+            "name":"Jackie Gonneau"
+         },
+         {
+            "credit_id":"56742e1bc3a3685edc002309",
+            "department":"Editing",
+            "gender":2,
+            "id":993536,
+            "job":"First Assistant Editor",
+            "name":"Larry Madaras"
+         },
+         {
+            "credit_id":"575066349251417a2a0029ea",
+            "department":"Directing",
+            "gender":2,
+            "id":1002623,
+            "job":"Assistant Director",
+            "name":"Tony Adler"
+         },
+         {
+            "credit_id":"589b9533c3a3687e540005ea",
+            "department":"Art",
+            "gender":0,
+            "id":1096860,
+            "job":"Standby Painter",
+            "name":"Christian Zimmermann"
+         },
+         {
+            "credit_id":"56d9d126c3a3681e3c0263b1",
+            "department":"Production",
+            "gender":0,
+            "id":1121874,
+            "job":"Unit Production Manager",
+            "name":"Cristen Carr Strubbe"
+         },
+         {
+            "credit_id":"57d829c9c3a36841470000f1",
+            "department":"Lighting",
+            "gender":0,
+            "id":1181576,
+            "job":"Electrician",
+            "name":"Ross Dunkerley"
+         },
+         {
+            "credit_id":"56742aaf9251412dbb002523",
+            "department":"Costume & Make-Up",
+            "gender":0,
+            "id":1203910,
+            "job":"Assistant Costume Designer",
+            "name":"Marcy Grace Froehlich"
+         },
+         {
+            "credit_id":"56742dc3c3a3685ede002875",
+            "department":"Costume & Make-Up",
+            "gender":0,
+            "id":1319166,
+            "job":"Makeup Artist",
+            "name":"Julie Hewett"
+         },
+         {
+            "credit_id":"56742cfd9251412dbb002564",
+            "department":"Sound",
+            "gender":0,
+            "id":1334485,
+            "job":"Sound Effects Editor",
+            "name":"Alan Rankin"
+         },
+         {
+            "credit_id":"589b9873925141676b000764",
+            "department":"Crew",
+            "gender":0,
+            "id":1339462,
+            "job":"Driver",
+            "name":"Jeff Couch"
+         },
+         {
+            "credit_id":"56742b8cc3a3685ef1002303",
+            "department":"Directing",
+            "gender":1,
+            "id":1341865,
+            "job":"Script Supervisor",
+            "name":"Ana Maria Quintana"
+         },
+         {
+            "credit_id":"589b9a6f9251416774000878",
+            "department":"Sound",
+            "gender":0,
+            "id":1342654,
+            "job":"Boom Operator",
+            "name":"Carl Fischer"
+         },
+         {
+            "credit_id":"56742d29c3a3685eeb0025e6",
+            "department":"Sound",
+            "gender":0,
+            "id":1345595,
+            "job":"Sound Re-Recording Mixer",
+            "name":"Scott Millan"
+         },
+         {
+            "credit_id":"567428f59251412db10022ef",
+            "department":"Art",
+            "gender":0,
+            "id":1378222,
+            "job":"Construction Coordinator",
+            "name":"Joe Ondrejko"
+         },
+         {
+            "credit_id":"56742af8c3a3685ee700244a",
+            "department":"Costume & Make-Up",
+            "gender":0,
+            "id":1387259,
+            "job":"Set Costumer",
+            "name":"Kanani Wolf"
+         },
+         {
+            "credit_id":"56742d14c3a3685ede00285a",
+            "department":"Sound",
+            "gender":2,
+            "id":1391571,
+            "job":"Sound Re-Recording Mixer",
+            "name":"Bob Beemer"
+         },
+         {
+            "credit_id":"589b951b92514167650005c9",
+            "department":"Art",
+            "gender":1,
+            "id":1392895,
+            "job":"Set Designer",
+            "name":"Andrea Dopaso"
+         },
+         {
+            "credit_id":"56742ae4c3a3685ee7002446",
+            "department":"Costume & Make-Up",
+            "gender":0,
+            "id":1398176,
+            "job":"Set Costumer",
+            "name":"Alix Hester"
+         },
+         {
+            "credit_id":"5674297dc3a3685ee5002701",
+            "department":"Visual Effects",
+            "gender":0,
+            "id":1399063,
+            "job":"Visual Effects Supervisor",
+            "name":"Rob Hodgson"
+         },
+         {
+            "credit_id":"57d2f464c3a368427c001896",
+            "department":"Crew",
+            "gender":0,
+            "id":1401117,
+            "job":"Unit Publicist",
+            "name":"David Linck"
+         },
+         {
+            "credit_id":"567429659251414dee000034",
+            "department":"Visual Effects",
+            "gender":0,
+            "id":1404846,
+            "job":"Visual Effects Producer",
+            "name":"Jonathan F. Styrlund"
+         },
+         {
+            "credit_id":"567429d69251412db40026ae",
+            "department":"Lighting",
+            "gender":0,
+            "id":1408285,
+            "job":"Rigging Gaffer",
+            "name":"Huston Beaumont"
+         },
+         {
+            "credit_id":"589b9a8792514167620007fd",
+            "department":"Sound",
+            "gender":0,
+            "id":1412702,
+            "job":"First Assistant Sound Editor",
+            "name":"Thomas O'Neil Younkman"
+         },
+         {
+            "credit_id":"56742951c3a3685ee20023b3",
+            "department":"Visual Effects",
+            "gender":0,
+            "id":1413100,
+            "job":"Visual Effects Producer",
+            "name":"Janet Yale"
+         },
+         {
+            "credit_id":"589b9ac79251416771000864",
+            "department":"Sound",
+            "gender":2,
+            "id":1413169,
+            "job":"Scoring Mixer",
+            "name":"Dennis S. Sands"
+         },
+         {
+            "credit_id":"56742d809251412db80022a3",
+            "department":"Costume & Make-Up",
+            "gender":0,
+            "id":1417399,
+            "job":"Key Hair Stylist",
+            "name":"Patricia DeHaney"
+         },
+         {
+            "credit_id":"589b997592514167740007ee",
+            "department":"Crew",
+            "gender":0,
+            "id":1421255,
+            "job":"Transportation Coordinator",
+            "name":"A. Welch Lambeth"
+         },
+         {
+            "credit_id":"56742d6cc3a3685edc0022f3",
+            "department":"Costume & Make-Up",
+            "gender":1,
+            "id":1444908,
+            "job":"Hairstylist",
+            "name":"Cydney Cornell"
+         },
+         {
+            "credit_id":"567429939251412db1002308",
+            "department":"Visual Effects",
+            "gender":0,
+            "id":1445885,
+            "job":"Visual Effects Supervisor",
+            "name":"David Goldberg"
+         },
+         {
+            "credit_id":"56742c629251412db1002365",
+            "department":"Editing",
+            "gender":0,
+            "id":1454536,
+            "job":"Dialogue Editor",
+            "name":"Simon Coke"
+         },
+         {
+            "credit_id":"56742acc9251412da90023ff",
+            "department":"Costume & Make-Up",
+            "gender":1,
+            "id":1455294,
+            "job":"Costume Supervisor",
+            "name":"Hope Slepak"
+         },
+         {
+            "credit_id":"56742bc49251412db1002350",
+            "department":"Directing",
+            "gender":0,
+            "id":1457833,
+            "job":"Script Supervisor",
+            "name":"Marilyn Giardino"
+         },
+         {
+            "credit_id":"567428a19251412db4002693",
+            "department":"Art",
+            "gender":0,
+            "id":1478848,
+            "job":"Art Department Coordinator",
+            "name":"Molly Click"
+         },
+         {
+            "credit_id":"57dc85e2c3a3682248000ee4",
+            "department":"Directing",
+            "gender":0,
+            "id":1530090,
+            "job":"Assistant Director",
+            "name":"Rosemary C. Cremona"
+         },
+         {
+            "credit_id":"589b94fac3a3687e4e000575",
+            "department":"Art",
+            "gender":0,
+            "id":1534970,
+            "job":"Painter",
+            "name":"Chris Samp"
+         },
+         {
+            "credit_id":"56742b6f9251414dee00007e",
+            "department":"Sound",
+            "gender":0,
+            "id":1549209,
+            "job":"Orchestrator",
+            "name":"Thomas Pasatieri"
+         },
+         {
+            "credit_id":"56742a19c3a3685edc002287",
+            "department":"Lighting",
+            "gender":0,
+            "id":1550617,
+            "job":"Rigging Grip",
+            "name":"Gerald A. King"
+         },
+         {
+            "credit_id":"56742a3e9251412dbb00251a",
+            "department":"Camera",
+            "gender":0,
+            "id":1550618,
+            "job":"Camera Operator",
+            "name":"Aaron Pazanti"
+         },
+         {
+            "credit_id":"56742b25c3a3685ee700244f",
+            "department":"Sound",
+            "gender":0,
+            "id":1550619,
+            "job":"Music Editor",
+            "name":"Joanie Diener"
+         },
+         {
+            "credit_id":"589b9aafc3a3687e5400086b",
+            "department":"Sound",
+            "gender":0,
+            "id":1551222,
+            "job":"Production Sound Mixer",
+            "name":"Richard Van Dyke"
+         },
+         {
+            "credit_id":"589b98fe92514167680007b5",
+            "department":"Art",
+            "gender":0,
+            "id":1552012,
+            "job":"Property Master",
+            "name":"Lynda Reiss"
+         },
+         {
+            "credit_id":"589b99cbc3a3687e45000827",
+            "department":"Editing",
+            "gender":0,
+            "id":1552188,
+            "job":"Color Timer",
+            "name":"Phil Hetos"
+         },
+         {
+            "credit_id":"589b9afc92514167740008cc",
+            "department":"Visual Effects",
+            "gender":0,
+            "id":1557497,
+            "job":"3D Artist",
+            "name":"John Cassella"
+         },
+         {
+            "credit_id":"589b98bbc3a3687e540007a5",
+            "department":"Crew",
+            "gender":0,
+            "id":1558210,
+            "job":"Production Controller",
+            "name":"Jim Turner"
+         },
+         {
+            "credit_id":"589b97d3c3a3687e4e0006e2",
+            "department":"Camera",
+            "gender":0,
+            "id":1568649,
+            "job":"Additional Camera",
+            "name":"Dana Kroeger"
+         },
+         {
+            "credit_id":"589b9b2a925141676e0008c1",
+            "department":"Visual Effects",
+            "gender":0,
+            "id":1569847,
+            "job":"Visual Effects Coordinator",
+            "name":"Paula Bonhomme"
+         },
+         {
+            "credit_id":"589b9847925141677400073c",
+            "department":"Costume & Make-Up",
+            "gender":0,
+            "id":1579408,
+            "job":"Set Dressing Artist",
+            "name":"Ian Kay"
+         },
+         {
+            "credit_id":"589b9aea925141676200083a",
+            "department":"Visual Effects",
+            "gender":0,
+            "id":1585014,
+            "job":"24 Frame Playback",
+            "name":"Ralph Merzbach"
+         },
+         {
+            "credit_id":"589b99acc3a3687e5800088b",
+            "department":"Crew",
+            "gender":0,
+            "id":1585196,
+            "job":"Visual Effects Editor",
+            "name":"Matt Magnolia"
+         },
+         {
+            "credit_id":"589b989b9251416762000723",
+            "department":"Crew",
+            "gender":0,
+            "id":1586927,
+            "job":"Post Production Assistant",
+            "name":"Kevin Du Toit"
+         },
+         {
+            "credit_id":"589b9a29c3a3687e5b000920",
+            "department":"Production",
+            "gender":0,
+            "id":1586941,
+            "job":"Production Accountant",
+            "name":"Janet Lonsdale"
+         },
+         {
+            "credit_id":"589b98d3c3a3687e5b000871",
+            "department":"Crew",
+            "gender":0,
+            "id":1595472,
+            "job":"Projection",
+            "name":"Renu00e9 Gonzu00e1lez"
+         },
+         {
+            "credit_id":"575066e1925141307f000d26",
+            "department":"Crew",
+            "gender":1,
+            "id":1614896,
+            "job":"Stunt Coordinator",
+            "name":"Ben Scott"
+         },
+         {
+            "credit_id":"589b9b4992514167650008f5",
+            "department":"Writing",
+            "gender":2,
+            "id":1632585,
+            "job":"Storyboard",
+            "name":"Tony Chance"
+         },
+         {
+            "credit_id":"589b94d6c3a3687e450005ac",
+            "department":"Art",
+            "gender":0,
+            "id":1651183,
+            "job":"Greensman",
+            "name":"Richard W. Jones"
+         },
+         {
+            "credit_id":"589b980ac3a3687e580007dd",
+            "department":"Camera",
+            "gender":2,
+            "id":1753763,
+            "job":"Key Grip",
+            "name":"Bill Young"
+         },
+         {
+            "credit_id":"589b98629251416762000708",
+            "department":"Crew",
+            "gender":0,
+            "id":1753765,
+            "job":"Craft Service",
+            "name":"Krissy Korn"
+         },
+         {
+            "credit_id":"589b988bc3a3687e4b00109a",
+            "department":"Crew",
+            "gender":0,
+            "id":1753766,
+            "job":"Loader",
+            "name":"Michael Thomas"
+         },
+         {
+            "credit_id":"589b98e9c3a3687e450007b9",
+            "department":"Crew",
+            "gender":0,
+            "id":1753767,
+            "job":"Propmaker",
+            "name":"Rob Garlow"
+         },
+         {
+            "credit_id":"589b9939925141677700076e",
+            "department":"Crew",
+            "gender":0,
+            "id":1753769,
+            "job":"Stand In",
+            "name":"Holiday Freeman"
+         },
+         {
+            "credit_id":"589b995b92514167740007dc",
+            "department":"Crew",
+            "gender":0,
+            "id":1753770,
+            "job":"Transportation Captain",
+            "name":"Randy Lovelady"
+         },
+         {
+            "credit_id":"589b99ec92514167710007ec",
+            "department":"Editing",
+            "gender":0,
+            "id":1753774,
+            "job":"Editorial Production Assistant",
+            "name":"Jeffrey Skinner"
+         },
+         {
+            "credit_id":"589b9a18c3a3687e480007ff",
+            "department":"Production",
+            "gender":1,
+            "id":1753775,
+            "job":"Location Manager",
+            "name":"Christine Bonnem"
+         },
+         {
+            "credit_id":"589b9b16925141676e0008b7",
+            "department":"Visual Effects",
+            "gender":0,
+            "id":1753782,
+            "job":"Digital Compositors",
+            "name":"Olivier Sarda"
+         },
+         {
+            "credit_id":"589b9b5f9251416765000909",
+            "department":"Crew",
+            "gender":0,
+            "id":1753783,
+            "job":"Studio Teachers",
+            "name":"Pia Mehr"
+         }
+      ],
+      "cast":[
+         {
+            "cast_id":6,
+            "character":"Lester Burnham",
+            "credit_id":"52fe420ec3a36847f80007db",
+            "gender":2,
+            "id":1979,
+            "name":"Kevin Spacey",
+            "order":0
+         },
+         {
+            "cast_id":3,
+            "character":"Carolyn Burnham",
+            "credit_id":"52fe420ec3a36847f80007cf",
+            "gender":1,
+            "id":516,
+            "name":"Annette Bening",
+            "order":1
+         },
+         {
+            "cast_id":5,
+            "character":"Jane Burnham",
+            "credit_id":"52fe420ec3a36847f80007d7",
+            "gender":1,
+            "id":2155,
+            "name":"Thora Birch",
+            "order":2
+         },
+         {
+            "cast_id":7,
+            "character":"Ricky Fitts",
+            "credit_id":"52fe420ec3a36847f80007df",
+            "gender":2,
+            "id":8210,
+            "name":"Wes Bentley",
+            "order":3
+         },
+         {
+            "cast_id":8,
+            "character":"Angela Hayes",
+            "credit_id":"52fe420ec3a36847f80007e3",
+            "gender":1,
+            "id":8211,
+            "name":"Mena Suvari",
+            "order":4
+         },
+         {
+            "cast_id":9,
+            "character":"Colonel Frank Fitts",
+            "credit_id":"52fe420ec3a36847f80007e7",
+            "gender":2,
+            "id":2955,
+            "name":"Chris Cooper",
+            "order":5
+         },
+         {
+            "cast_id":4,
+            "character":"Jim Olmeyer",
+            "credit_id":"52fe420ec3a36847f80007d3",
+            "gender":2,
+            "id":2154,
+            "name":"Scott Bakula",
+            "order":6
+         },
+         {
+            "cast_id":10,
+            "character":"Buddy Kane",
+            "credit_id":"52fe420ec3a36847f80007eb",
+            "gender":2,
+            "id":8212,
+            "name":"Peter Gallagher",
+            "order":7
+         },
+         {
+            "cast_id":11,
+            "character":"Barbara Fitts",
+            "credit_id":"52fe420ec3a36847f80007ef",
+            "gender":1,
+            "id":19,
+            "name":"Allison Janney",
+            "order":8
+         },
+         {
+            "cast_id":12,
+            "character":"Jim Berkley",
+            "credit_id":"52fe420ec3a36847f80007f3",
+            "gender":2,
+            "id":8213,
+            "name":"Sam Robards",
+            "order":9
+         },
+         {
+            "cast_id":13,
+            "character":"Brad Dupree",
+            "credit_id":"52fe420ec3a36847f80007f7",
+            "gender":2,
+            "id":8214,
+            "name":"Barry Del Sherman",
+            "order":10
+         },
+         {
+            "cast_id":29,
+            "character":"Sale House Man #1",
+            "credit_id":"55c23f1b9251413df1000167",
+            "gender":2,
+            "id":68842,
+            "name":"John Cho",
+            "order":11
+         },
+         {
+            "cast_id":117,
+            "character":"Sale House Man #2",
+            "credit_id":"579b6c6dc3a36811610030c1",
+            "gender":2,
+            "id":1658382,
+            "name":"Hal Fort Atkinson",
+            "order":12
+         },
+         {
+            "cast_id":32,
+            "character":"Sale House Man #3",
+            "credit_id":"55c23f6e9251413de80001a6",
+            "gender":2,
+            "id":9634,
+            "name":"Kent Faulcon",
+            "order":13
+         },
+         {
+            "cast_id":25,
+            "character":"Sale House Woman #1",
+            "credit_id":"549729c6c3a3686ae9006c28",
+            "gender":1,
+            "id":64189,
+            "name":"Ara Celi",
+            "order":14
+         },
+         {
+            "cast_id":31,
+            "character":"Sale House Woman #2",
+            "credit_id":"55c23f589251413de100019e",
+            "gender":1,
+            "id":166961,
+            "name":"Sue Casey",
+            "order":15
+         },
+         {
+            "cast_id":33,
+            "character":"Sale House Woman #3",
+            "credit_id":"55c23fc1c3a36842dd000190",
+            "gender":1,
+            "id":1397945,
+            "name":"Brenda Wehle",
+            "order":16
+         },
+         {
+            "cast_id":34,
+            "character":"Sale House Woman #4",
+            "credit_id":"55c23fe2c3a36842e90001d9",
+            "gender":1,
+            "id":152796,
+            "name":"Lisa Cloud",
+            "order":17
+         },
+         {
+            "cast_id":36,
+            "character":"Christy Kane",
+            "credit_id":"55c2407c9251413dee00018e",
+            "gender":1,
+            "id":42715,
+            "name":"Amber Smith",
+            "order":18
+         },
+         {
+            "cast_id":37,
+            "character":"Catering Boss",
+            "credit_id":"55c240bcc3a36842f3000204",
+            "gender":2,
+            "id":12223,
+            "name":"Joel McCrary",
+            "order":19
+         },
+         {
+            "cast_id":38,
+            "character":"Mr. Smiley's Counter Girl (Janine)",
+            "credit_id":"55c240ddc3a36842e3000182",
+            "gender":1,
+            "id":76742,
+            "name":"Marissa Jaret Winokur",
+            "order":20
+         },
+         {
+            "cast_id":39,
+            "character":"Mr. Smiley's Manager",
+            "credit_id":"55c240f6c3a36842f300020a",
+            "gender":0,
+            "id":1441804,
+            "name":"Dennis Anderson",
+            "order":21
+         },
+         {
+            "cast_id":40,
+            "character":"Firing Range Attendant",
+            "credit_id":"55c24111c3a36842f50001e2",
+            "gender":2,
+            "id":177623,
+            "name":"Matthew Kimbrough",
+            "order":22
+         },
+         {
+            "cast_id":26,
+            "character":"Young Jane",
+            "credit_id":"551cbac99251416a21001742",
+            "gender":0,
+            "id":1448568,
+            "name":"Erin Cathryn Strubbe",
+            "order":23
+         },
+         {
+            "cast_id":35,
+            "character":"Spartanette #1",
+            "credit_id":"55c240029251413de80001c5",
+            "gender":1,
+            "id":101687,
+            "name":"Alison Faulk",
+            "order":25
+         },
+         {
+            "cast_id":42,
+            "character":"Spartanette #2",
+            "credit_id":"55e52dcc92514137970010b7",
+            "gender":0,
+            "id":1503019,
+            "name":"Krista Goodsitt",
+            "order":26
+         },
+         {
+            "cast_id":43,
+            "character":"Spartanette #3",
+            "credit_id":"55e52dccc3a36813f2001196",
+            "gender":1,
+            "id":1503020,
+            "name":"Lily Houtkin",
+            "order":27
+         },
+         {
+            "cast_id":44,
+            "character":"Spartanette #4",
+            "credit_id":"55e52dcc92514137a8001157",
+            "gender":1,
+            "id":1503021,
+            "name":"Carolina Lancaster",
+            "order":28
+         },
+         {
+            "cast_id":45,
+            "character":"Spartanette #5",
+            "credit_id":"55e52dcdc3a36813eb001157",
+            "gender":1,
+            "id":1503022,
+            "name":"Mona Leah",
+            "order":29
+         },
+         {
+            "cast_id":46,
+            "character":"Spartanette #6",
+            "credit_id":"55e52dcdc3a36813f6000f1f",
+            "gender":1,
+            "id":1503023,
+            "name":"Chekesha Van Putten",
+            "order":30
+         },
+         {
+            "cast_id":47,
+            "character":"Spartanette #7",
+            "credit_id":"55e52dcdc3a36813eb00115c",
+            "gender":1,
+            "id":1503024,
+            "name":"Emily Zachary",
+            "order":31
+         },
+         {
+            "cast_id":56,
+            "character":"Spartanette #8",
+            "credit_id":"55e52e10c3a36813f20011af",
+            "gender":1,
+            "id":1503030,
+            "name":"Nancy Anderson",
+            "order":32
+         },
+         {
+            "cast_id":48,
+            "character":"Spartanette #9",
+            "credit_id":"55e52dce92514137a00011ec",
+            "gender":1,
+            "id":568656,
+            "name":"Reshma Gajjar",
+            "order":33
+         },
+         {
+            "cast_id":49,
+            "character":"Spartanette #10",
+            "credit_id":"55e52dcec3a36813f6000f24",
+            "gender":1,
+            "id":1503025,
+            "name":"Stephanie Rizzo",
+            "order":34
+         },
+         {
+            "cast_id":50,
+            "character":"Playground Girl #1",
+            "credit_id":"55e52dce92514137a600112b",
+            "gender":1,
+            "id":1503026,
+            "name":"Heather Joy Sher",
+            "order":35
+         },
+         {
+            "cast_id":51,
+            "character":"Playground Girl #2",
+            "credit_id":"55e52dcfc3a36814080012c3",
+            "gender":1,
+            "id":1219143,
+            "name":"Chelsea Hertford",
+            "order":36
+         },
+         {
+            "cast_id":52,
+            "character":"Newscaster (uncredited)",
+            "credit_id":"55e52dcf925141379d001124",
+            "gender":1,
+            "id":1503027,
+            "name":"Elaine Corral Kendall",
+            "order":37
+         },
+         {
+            "cast_id":53,
+            "character":"Wedding Guest (uncredited)",
+            "credit_id":"55e52dcfc3a36813f200119b",
+            "gender":2,
+            "id":1503028,
+            "name":"David C. Fisher",
+            "order":38
+         },
+         {
+            "cast_id":54,
+            "character":"Advertising Executive (uncredited)",
+            "credit_id":"55e52dcf92514137a800115c",
+            "gender":2,
+            "id":1503029,
+            "name":"Tom Miller",
+            "order":39
+         },
+         {
+            "cast_id":118,
+            "character":"Bartender (uncredited)",
+            "credit_id":"579b736b9251414779002262",
+            "gender":2,
+            "id":8215,
+            "name":"Bruce Cohen",
+            "order":41
+         }
+      ],
+      "companies":[
+         {
+            "name":"DreamWorks SKG",
+            "id":27
+         },
+         {
+            "name":"Jinks/Cohen Company",
+            "id":2721
+         }
+      ],
+      "countries":[
+         {
+            "iso_3166_1":"US",
+            "name":"United States of America"
+         }
+      ]
+   }
+}

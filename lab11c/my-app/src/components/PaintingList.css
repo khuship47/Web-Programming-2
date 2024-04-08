@@ -1,0 +1,16 @@
+#paintingList {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 0.75rem;
+   padding-bottom: 1.5rem;
+}
+
+@media (max-width: 700px) {
+  
+   #paintingList {
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      grid-gap: 0.75rem;
+   }
+   
+ }
