@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Node 2</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />   
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">       
+   <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>       
+   <form method="post" action="/api/create/book" class="main">
+      <fieldset>
+         <legend>Add Book</legend>
+
+         <p><label>Title </label><br>
+         <input type="text" name="title" size="80" /></p>
+         <p><label>ISBN10 </label><br>
+         <input type="text" name="isbn10" size="10" /></p>
+         <p><label>ISBN13 </label><br>
+         <input type="text" name="isbn13" size="13" /></p>
+         <p><label>Number of Pages </label><br>
+         <input type="text" name="pages" size="5" /></p>
+         <p><label>Year </label><br>            
+         <input type="number" name="year"  min="2000" max="2030" step="1" size="4" /></p>
+         <p><label>Publisher </label> <br>
+               <select name="publisher">
+                  <option>Pearson</option>
+                  <option>Addison-Wesley</option>
+                  <option>Longman</option>                    
+                  <option>Prentice Hall</option>
+                  <option>Undecided</option>
+               </select> 
+         </p>           
+         <p><input type="submit" text="Add New Book" /></p>
+      </form>          
+</body>
+</html>

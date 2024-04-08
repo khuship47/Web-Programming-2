@@ -1,0 +1,166 @@
+:root {
+   --body-bg-color: white;
+   --main-bg-color: #e6e9f0;
+   --header-bg-color: #431c5d;
+   --header-text-color: white;
+   --sidebar-bg-color: #c2dde6;
+   --content-bg-color: #bccbde;
+   --callout-bg-color: #e05915;
+   --callout-text-color: white;
+ }
+
+body {
+   font-family: "Roboto", Verdana, Arial, sans-serif;
+   font-size: 100%;
+   background-color: var(--body-bg-color);    
+   box-sizing: border-box;
+}
+
+
+
+/* data-entry.html formatting */
+
+form.main {
+   background-color: var(--main-bg-color);
+   margin: 1em 4em 1em 4em;
+
+}
+
+form {
+   margin: 0.5em auto;
+    width: 90%;
+}
+fieldset {
+  padding: 0 1em 1em 1em;  
+  border: none; 
+}
+legend {
+	background-color: var(--callout-bg-color); 
+   color: var(--callout-text-color);
+   font-size: 1em;
+	padding: 0.5rem;
+	text-align: center;  
+    width: 100%;
+    font-size: 0.85em;
+}
+
+label {
+    font-weight: bold; 
+}
+form p {
+   margin-top: 1em;   
+}
+
+input[type=text], select {
+   height: 1.6rem; 
+}
+
+input[type=submit] {
+   background-color: var(--header-bg-color);
+    color: white;
+    height: 3em;
+    width: 7em;
+    border-style: none;
+}
+input[type=submit]:hover {
+    background-color: #6200EA;
+}
+
+/* pug layout formatting */
+
+main {
+   background-color: var(--main-bg-color);
+   margin: 1em 0;
+}
+
+header {
+   background-color: var(--header-bg-color);
+   color: var(--header-text-color);
+
+   padding: 0.5rem;
+}
+header h2 {
+   
+   font-size: 1.4rem;
+   font-weight: bold;
+}
+.sidebar {
+   background-color: var(--sidebar-bg-color);
+   margin: 0;
+}
+.sidebar ul {
+   list-style-type: none;
+}
+.sidebar ul li {
+   margin: 0.25rem 0;
+}
+
+.pagecontent {
+   background-color: var(--main-bg-color);
+   padding: 1rem;
+}
+
+footer {
+   background-color: var(--header-bg-color);
+   color: var(--header-text-color);  
+   font-size: 0.75rem;
+   padding: 0.25rem;
+}
+
+/* book formatting */
+main.book {
+   display: grid;
+   grid-column-gap: 5px;
+   grid-template-columns: 200px auto;   
+}
+
+.booklist {   
+   display: grid;
+   grid-column-gap: 5px;
+   grid-row-gap: 10px;
+   grid-template-columns: 120px auto;    
+}
+
+.pagecontent article.book {
+   display: grid;
+   grid-column-gap: 5px;
+   grid-template-columns: 275px auto;    
+}
+
+/* travel/photo formatting */
+main.photo {
+   display: block;   
+}
+
+.photolist {   
+   display: grid;
+   grid-column-gap: 5px;
+   grid-row-gap: 10px;
+   grid-template-columns: repeat(10, 1fr);   
+   grid-auto-flow: row
+}
+
+.pagecontent article.photo {
+   display: grid;
+   grid-column-gap: 5px;
+   grid-template-columns: 275px auto;    
+}
+
+main.photo h1 {
+   font-size: 1.2rem;
+   font-weight: bold;   
+}
+
+main.photo h2 {
+   font-size: 1rem;
+   font-weight: bold;   
+}
+
+ul.photos {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+ul.photos li {
+   margin: 0.5rem 0;
+}

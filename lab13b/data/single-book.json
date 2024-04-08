@@ -1,0 +1,19 @@
+{
+   "id":484,
+   "isbn10":"032179477X",
+   "isbn13":9780321794772,
+   "title":"A First Course in Probability",
+   "year":2014,
+   "publisher":"Pearson",
+   "production":{
+      "status":"Complete",
+      "binding":"Casebound",
+      "size":"8\" x 10\"",
+      "pages":552,
+      "instock":"12/21/2012"
+   },
+   "category":{
+      "main":"Statistics",
+      "secondary":"Introductory Statistics"
+   }
+}
