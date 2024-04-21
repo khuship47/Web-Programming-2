@@ -27,7 +27,11 @@
                   <div class="control">
                      <button type="submit" class="button is-link">Login Locally</button>
                   </div>
-
+                  <% if (message) { %>
+                     <p id="msg2" class="help is-danger">
+                     <%= message %>
+                     </p>
+                     <% } %>
 
 				  
                </form>
